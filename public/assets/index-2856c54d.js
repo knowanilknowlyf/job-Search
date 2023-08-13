@@ -93,7 +93,7 @@ Error generating stack: `+a.message+`
       width: 90%;x
     }
   }
-`,G4="/assets/logo-b770cc21.svg",Uo=()=>P.jsx("img",{src:G4,alt:"Logo",className:"logo"}),wt=({labelText:e,name:t,type:r,defaultValue:n,classNames:i,accept:a})=>P.jsxs("div",{className:"form-row",children:[P.jsx("label",{htmlFor:t,className:"form-label",children:e}),P.jsx("input",{id:t,name:t,type:r,className:`form-input ${i}`,defaultValue:n||"",accept:a,required:!0})]}),K4=Bt.aside`
+`,G4="/assets/logo-5be8a7e4.svg",Uo=()=>P.jsx("img",{src:G4,alt:"Logo",className:"logo"}),wt=({labelText:e,name:t,type:r,defaultValue:n,classNames:i,accept:a})=>P.jsxs("div",{className:"form-row",children:[P.jsx("label",{htmlFor:t,className:"form-label",children:e}),P.jsx("input",{id:t,name:t,type:r,className:`form-input ${i}`,defaultValue:n||"",accept:a,required:!0})]}),K4=Bt.aside`
   display: none;
   @media (min-width: 992px) {
     display: block;
