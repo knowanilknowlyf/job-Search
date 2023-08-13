@@ -20,6 +20,11 @@ const Wrapper = styled.aside`
     .show-sidebar {
       margin-left: 0;
     }
+    .logo{
+      position: relative;
+      left: -25px;
+      top:-15px
+    }
     header {
       height: 6rem;
       display: flex;

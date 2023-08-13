@@ -113,6 +113,11 @@ Error generating stack: `+a.message+`
     .show-sidebar {
       margin-left: 0;
     }
+    .logo{
+      position: relative;
+      left: -25px;
+      top:-15px
+    }
     header {
       height: 6rem;
       display: flex;
@@ -244,6 +249,7 @@ Error generating stack: `+a.message+`
     display: none;
   }
   .logo {
+    
     display: flex;
     align-items: center;
     width: 100px;
@@ -623,9 +629,11 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
   display: grid;
   align-items: center;
   .logo {
+    max-height: 161px;
+    position: relative;
     display: block;
-    margin: 0 auto;
-    margin-bottom: 1.38rem;
+    margin: 0px auto 1.38rem;
+    bottom: -45px;
   }
   .form {
     max-width: 400px;
@@ -675,6 +683,11 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
     text-transform: capitalize;
   }
 `,rte="/assets/not-found-5116d89a.svg",nte=()=>UO().status==404?P.jsx(m_,{children:P.jsxs("div",{children:[P.jsx("img",{src:rte,alt:" image"}),P.jsx("h3",{children:"Ohh The page is not found"}),P.jsx("p",{children:"We cant seem to find the page"}),P.jsx(ua,{to:"/",children:"back to home"})]})}):P.jsx(m_,{children:P.jsx("div",{children:P.jsx("h3",{children:"Something went wrong"})})}),ite=()=>P.jsx(P.Fragment,{children:P.jsx(HO,{})}),ate=Bt.section`
+  .logo{
+    max-width: 236px;
+    left: -25px;
+    position: relative;
+  }
   nav {
     width: var(--fluid-width);
     max-width: var(--max-width);

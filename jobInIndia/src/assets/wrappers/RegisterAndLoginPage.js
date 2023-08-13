@@ -5,9 +5,11 @@ const Wrapper = styled.section`
   display: grid;
   align-items: center;
   .logo {
+    max-height: 161px;
+    position: relative;
     display: block;
-    margin: 0 auto;
-    margin-bottom: 1.38rem;
+    margin: 0px auto 1.38rem;
+    bottom: -45px;
   }
   .form {
     max-width: 400px;
